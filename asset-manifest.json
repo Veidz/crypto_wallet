@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.js": "/crypto_wallet/static/js/main.81d15769.js",
+    "main.css": "/crypto_wallet/static/css/main.cb527e6d.css",
+    "main.js": "/crypto_wallet/static/js/main.342ccde0.js",
+    "static/media/binance.png": "/crypto_wallet/static/media/binance.2cb48e735f1a74b4d790.png",
     "index.html": "/crypto_wallet/index.html",
-    "main.81d15769.js.map": "/crypto_wallet/static/js/main.81d15769.js.map"
+    "main.cb527e6d.css.map": "/crypto_wallet/static/css/main.cb527e6d.css.map",
+    "main.342ccde0.js.map": "/crypto_wallet/static/js/main.342ccde0.js.map"
   },
   "entrypoints": [
-    "static/js/main.81d15769.js"
+    "static/css/main.cb527e6d.css",
+    "static/js/main.342ccde0.js"
   ]
 }
