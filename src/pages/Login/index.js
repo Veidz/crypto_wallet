@@ -14,7 +14,7 @@ export default function Login() {
           />
         </LeftLoginForm>
         <RightLoginForm>
-          {/* <Title>Wallet</Title> */}
+          <Title>Wallet</Title>
           
           <LoginInputContainer>
             {/* Email */}

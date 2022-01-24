@@ -2,9 +2,6 @@ import styled from "styled-components";
 
 export const LoginContainer = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(-32deg, #d1d1d1, #dedede);
   width: 100vw;
   height: 100vh;
 `
@@ -13,8 +10,13 @@ export const LoginFormContainer = styled.form`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
-  height: 60%;
+
+  width: 100%;
+  height: 100%;
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+  }
 `
 
 export const LeftLoginForm = styled.div`
@@ -24,29 +26,47 @@ export const LeftLoginForm = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 5px 10px 2px #202021;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
 `
 
 export const RightLoginForm = styled.div`
   height: 100%;
   width: 70%;
   background-color: white;
-  box-shadow: 5px 10px 2px #bababa;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
 `
 
 export const Logo = styled.img`
-  width: 128px;
-  height: 128px;
+  width: 256px;
+  height: 256px;
+
+  @media (max-width: 1200px) {
+    width: 128px;
+    height: 128px;
+  }
 `
 
 export const Title = styled.h1`
-  text-align: center;
   color: #f5b94c;
   letter-spacing: 8px;
   font-family: "Pacifico";
   text-decoration: underline;
+  position: relative;
+  top: 50px;
+  left: calc(50% - 100px);
+  font-size: 3em;
+  
+  @media (max-width: 1200px) {
+    top: 5px;
+  }
 `
 
 export const LoginInputContainer = styled.div`
@@ -56,14 +76,12 @@ export const LoginInputContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background-color: blue; */
 `
 
 export const LoginInput = styled.input`
   width: 50%;
   background-color: transparent;
   margin: 10px;
-  /* padding: 1em; */
   padding-top: 1em;
   padding-right: 1em;
   padding-bottom: 1em;
@@ -92,7 +110,6 @@ export const LoginInput = styled.input`
 
 export const LoginButton = styled.button`
   width: 50%;
-  /* background-color: red; */
   font-size: 1.1em;
   margin-top: 30px;
   padding: 0.7em;
