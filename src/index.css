@@ -13,3 +13,10 @@ body {
   overflow: hidden;
   font-family: "Poppins";
 }
+
+@media (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
