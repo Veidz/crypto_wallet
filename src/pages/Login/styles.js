@@ -79,13 +79,14 @@ export const LoginInput = styled.input`
   font-size: 1.1em;
 
   &::placeholder {
+    transition: 0.4s ease-in;
     color: #9c9c9c;
   }
 
   &:focus::placeholder {
     opacity: 0;
     transform: translateY(-50px);
-    transition: 0.8s ease-in;
+    transition: 0.8s ease-out;
   }
 `
 
